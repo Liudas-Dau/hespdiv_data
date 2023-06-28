@@ -6,7 +6,7 @@
 \alias{HDData-package}
 \title{HDData: Data Repository for hespdiv Package}
 \description{
-Provides exemplary datasets for hespdiv package.
+Provides exemplary datasets for the hespdiv package.
 }
 \author{
 \strong{Maintainer}: Liudas Daumantas \email{liudas.daumantas@chgf.vu.lt}
