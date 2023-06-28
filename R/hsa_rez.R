@@ -52,3 +52,12 @@
 #'
 #' @format a hsa class object with 100 alternative hespdiv runs
 "hsa_rez"
+
+
+#' Exemplary hsa_quant class object
+#'
+#' clst <- hsa_quant(hsa_rez)
+#' usethis::use_data(clst)
+#'
+#' @format a hsa_quant class object
+"clst"

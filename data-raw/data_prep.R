@@ -321,3 +321,5 @@ for ( i in 1:6){
 #               c.fast.optim = TRUE, # Determines the optimization algorithm of non-linear split-lines
 #               use.chull = FALSE) # Determines whether the convex polygon of occurences is used as a study area polygon. If not, study area polygon becomes the provided US polygon.
 # usethis::use_data(hsa_rez)
+
+clst <- hsa_quant(hsa_rez)
