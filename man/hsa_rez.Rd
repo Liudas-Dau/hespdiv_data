@@ -3,7 +3,7 @@
 \docType{data}
 \name{hsa_rez}
 \alias{hsa_rez}
-\title{Examplary HespDiv sensitivity analysis object obtained by trying alternative
+\title{Exemplary HespDiv sensitivity analysis object obtained by trying alternative
 arguments for hd run.}
 \format{
 a hsa class object with 100 alternative hespdiv runs
@@ -21,6 +21,6 @@ c.splits = FALSE,  # Argument controls whether curves are generated in attempt t
 c.X.knots = 3:8, # Controls the number of wiggles in generated curves, determining their fit to data
 c.Y.knots = 5:15, # Controls the number of different shapes each curve wiggle can achieve, also determining their fit to data
 c.fast.optim = TRUE, # Determines the optimization algorithm of non-linear split-lines
-use.chull = FALSE) # Determines whether the convex polygon of occurences is used as a study area polygon. If not, study area polygon becomes the provided US polygon.
+use.chull = FALSE) # Determines whether the convex polygon of occurrences is used as a study area polygon. If not, study area polygon becomes the provided US polygon.
 }
 \keyword{datasets}

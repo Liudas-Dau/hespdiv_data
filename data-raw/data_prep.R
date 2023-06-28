@@ -306,6 +306,9 @@ for ( i in 1:6){
 # hd <- hespdiv(data = species, xy.dat = sp_coords, study.pol = us)
 # usethis::use_data(hd)
 
+# set.seed(1)
+# nl <- nulltest(hd, n = 1000)
+# usethis::use_data(nl)
 
 # set.seed(2) # seed is used to obtained the same result of an experiment with random properties.
 # hsa_rez <- hsa(obj = hd,

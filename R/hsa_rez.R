@@ -18,7 +18,7 @@
 #' @format a data frame of size 233x2
 "us"
 
-#' HespDiv object obtain with the default arguments and package data
+#' a hespdiv class object obtained with the default hespdiv arguments and package datasets
 #'
 #' species <- mio_mams$accepted_name # taxa names
 #' sp_coords <- data.frame(x = mio_mams$lng, y = mio_mams$lat)
@@ -27,7 +27,16 @@
 #' @format a hespdiv class object
 "hd"
 
-#' Examplary HespDiv sensitivity analysis object obtained by trying alternative
+#' A nullhespdiv class object obtain with the default arguments and package data
+#'
+#' set.seed(1)
+#' nl <- nulltest(hd, n = 1000)
+#' usethis::use_data(nl)
+#'
+#' @format a nullhespdiv class object
+"nl"
+
+#' Exemplary HespDiv sensitivity analysis object obtained by trying alternative
 #' arguments for hd run.
 #'
 #' set.seed(2) # seed is used to obtained the same result of an experiment with random properties.
@@ -39,7 +48,7 @@
 #'               c.X.knots = 3:8, # Controls the number of wiggles in generated curves, determining their fit to data
 #'               c.Y.knots = 5:15, # Controls the number of different shapes each curve wiggle can achieve, also determining their fit to data
 #'               c.fast.optim = TRUE, # Determines the optimization algorithm of non-linear split-lines
-#'               use.chull = FALSE) # Determines whether the convex polygon of occurences is used as a study area polygon. If not, study area polygon becomes the provided US polygon.
+#'               use.chull = FALSE) # Determines whether the convex polygon of occurrences is used as a study area polygon. If not, study area polygon becomes the provided US polygon.
 #'
 #' @format a hsa class object with 100 alternative hespdiv runs
 "hsa_rez"

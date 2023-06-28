@@ -3,7 +3,7 @@
 \docType{data}
 \name{hd}
 \alias{hd}
-\title{HespDiv object obtain with the default arguments and package data}
+\title{a hespdiv class object obtained with the default hespdiv arguments and package datasets}
 \format{
 a hespdiv class object
 }
