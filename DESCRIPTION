@@ -1,0 +1,18 @@
+Package: HDData
+Title: Data Repository for hespdiv Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Liudas",
+           family = "Daumantas",
+           role = c("aut", "cre"),
+           email = "liudas.daumantas@chgf.vu.lt")
+Description: Provides exemplary datasets for the hespdiv package.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    tibble, hespdiv

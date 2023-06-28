@@ -308,7 +308,7 @@ for ( i in 1:6){
 
 
 # set.seed(2) # seed is used to obtained the same result of an experiment with random properties.
-# hsa_res <- hsa(obj = hd,
+# hsa_rez <- hsa(obj = hd,
 #               n.runs = 100, # 100 alternative hespdiv re-reruns
 #               n.split.pts = 8:30, # number of split-points determines fit to data of straight split-lines
 #               same.n.split = FALSE, # split-point placement regularity determines whether scale of analysis changes depending on order of subdivision
@@ -317,4 +317,4 @@ for ( i in 1:6){
 #               c.Y.knots = 5:15, # Controls the number of different shapes each curve wiggle can achieve, also determining their fit to data
 #               c.fast.optim = TRUE, # Determines the optimization algorithm of non-linear split-lines
 #               use.chull = FALSE) # Determines whether the convex polygon of occurences is used as a study area polygon. If not, study area polygon becomes the provided US polygon.
-# usethis::use_data(hsa_res)
+# usethis::use_data(hsa_rez)
