@@ -61,7 +61,7 @@
 #'
 #' @format a hsa_quant class object
 "clst"
-<<<<<<< HEAD
+
 
 #' hespdiv object for workshop (simulated two bioregions)
 #'
@@ -69,5 +69,5 @@
 #'
 #' @format a hespdiv class object
 "h_rez"
-=======
->>>>>>> origin/main
+
+
