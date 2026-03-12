@@ -11,6 +11,6 @@ a hespdiv class object
 h_rez
 }
 \description{
-derivation is in 1intro.R
+derivation is in demo.R
 }
 \keyword{datasets}

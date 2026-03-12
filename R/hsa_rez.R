@@ -65,9 +65,49 @@
 
 #' hespdiv object for workshop (simulated two bioregions)
 #'
-#' derivation is in 1intro.R
+#' derivation is in demo.R
 #'
 #' @format a hespdiv class object
 "h_rez"
 
+#' hespdiv object for workshop (like in paper)
+#'
+#' derivation is in demo.R
+#'
+#' @format a hespdiv class object
+"hd_rcase"
 
+#' hd_rcase significance test
+#'
+#' derivation is in demo.R
+#'
+#' @format a nullhespdiv class object
+"null_test"
+
+#' family contributions to splits in hd_rcase
+#'
+#' derivation is in demo.R
+#'
+#' @format a group_effect object
+"group_contributions"
+
+#' species contributions to splits in hd_rcase
+#'
+#' derivation is in demo.R
+#'
+#' @format a taxon_effect_result object
+"species_contributions"
+
+#' hespdiv results of density based subdivision
+#'
+#' derivation is in demo.R
+#'
+#' @format a hespdiv object
+"density_hespdiv"
+
+#' hespdiv results of subdivision based on linear relationship differences
+#'
+#' derivation is in demo.R
+#'
+#' @format a hespdiv object
+"simpson_hespdiv"
